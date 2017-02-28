@@ -1,4 +1,4 @@
-const text = 'app2';
+var text = 'app2';
 
 $('body').html(text);
 velocity($('body'), 'fadeOut', {

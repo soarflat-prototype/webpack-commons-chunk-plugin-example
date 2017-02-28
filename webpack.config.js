@@ -11,13 +11,6 @@ module.exports = {
     filename: '[name].bundle.js',
     path: './public/js'
   },
-  module: {
-    loaders: [{
-      test: /\.js$/,
-      exclude: /node_modules/,
-      loader: 'babel-loader?presets[]=es2015'
-    }]
-  },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js'),
     new webpack.optimize.UglifyJsPlugin({

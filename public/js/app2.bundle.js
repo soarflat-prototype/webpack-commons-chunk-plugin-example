@@ -1,1 +1,1 @@
-webpackJsonp([1],[function(t,a,n){(function(t,a){"use strict";var n="app2";t("body").html(n),a(t("body"),"fadeOut",{duration:1e3})}).call(a,n(1),n(2))}]);
+webpackJsonp([1],[function(a,n,o){(function(a,n){var o="app2";a("body").html(o),n(a("body"),"fadeOut",{duration:1e3})}).call(n,o(1),o(2))}]);
