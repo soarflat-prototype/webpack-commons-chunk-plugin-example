@@ -1,0 +1,1 @@
+webpackJsonp([0],[function(t,e,o){(function(t,e){"use strict";function u(t){return t&&t.__esModule?t:{default:t}}var n=o(3),l=u(n),a=o(4),d=u(a),c=400,f=600,i=(0,l.default)(c,f),r=1.08,s=(0,d.default)(i,r);console.log(s),t("body").html(s),e(t("body"),"fadeOut",{duration:1e3})}).call(e,o(1),o(2))}]);
