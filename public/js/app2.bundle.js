@@ -1,1 +1,15 @@
-webpackJsonp([1],[function(a,n,o){(function(a,n){var o="app2";a("body").html(o),n(a("body"),"fadeOut",{duration:1e3})}).call(n,o(1),o(2))}]);
+webpackJsonp([1],[
+/* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	const $ = __webpack_require__(1);
+	const velocity = __webpack_require__(2);
+	const text = 'app';
+
+	$('body').html(text);
+	velocity($('body'), 'fadeOut', {
+	  duration: 1000
+	});
+
+/***/ }
+]);
