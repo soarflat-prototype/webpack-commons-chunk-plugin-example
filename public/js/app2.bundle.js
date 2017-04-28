@@ -1,4 +1,4 @@
-webpackJsonp([1],[
+vendor([1],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 

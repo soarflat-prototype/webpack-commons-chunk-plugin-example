@@ -12,6 +12,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: './public/js',
+    jsonpFunction: 'vendor',
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
