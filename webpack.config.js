@@ -1,4 +1,5 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: {
@@ -11,7 +12,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: './public/js',
+    path: path.join(__dirname, 'public/js'),
     jsonpFunction: 'vendor',
   },
   plugins: [
@@ -19,6 +20,7 @@ module.exports = {
       name: 'vendor',
       chunks: ['app', 'app2'],
       // Infinityを指定すると、エントリーポイントに記述したモジュール以外はバンドルされない
+      // 今回の場合jqueryとvelocity-animateのみがバンドルされる
       minChunks: Infinity,
     }),
   ],

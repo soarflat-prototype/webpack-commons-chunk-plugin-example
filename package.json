@@ -1,8 +1,8 @@
 {
   "name": "webpack-commons-chunk-plugin-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
-    "webpack": "^1.14.0"
+    "webpack": "^3.7.1"
   },
   "dependencies": {
     "jquery": "^3.1.1",

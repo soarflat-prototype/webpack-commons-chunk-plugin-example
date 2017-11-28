@@ -1,33 +1,34 @@
-vendor([1],[
-/* 0 */
-/***/ function(module, exports, __webpack_require__) {
+vendor([0],{
 
-	var $ = __webpack_require__(1);
-	var velocity = __webpack_require__(2);
-	var moduleA = __webpack_require__(3);
-	var text = 'app2';
+/***/ 2:
+/***/ (function(module, exports) {
 
-	$('body').html(text);
-	velocity($('body'), 'fadeOut', {
-	  duration: 1000
-	});
-	moduleA();
+var moduleA = function () {
+  console.log('moduleA!!!');
+  console.log('moduleA!!!');
+  console.log('moduleA!!!');
+  console.log('moduleA!!!');
+  console.log('moduleA!!!');
+};
 
-/***/ },
-/* 1 */,
-/* 2 */,
-/* 3 */
-/***/ function(module, exports) {
+module.exports = moduleA;
 
-	var moduleA = function () {
-	  console.log('moduleA!!!');
-	  console.log('moduleA!!!');
-	  console.log('moduleA!!!');
-	  console.log('moduleA!!!');
-	  console.log('moduleA!!!');
-	};
+/***/ }),
 
-	module.exports = moduleA;
+/***/ 5:
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ }
-]);
+var $ = __webpack_require__(0);
+var velocity = __webpack_require__(1);
+var moduleA = __webpack_require__(2);
+var text = 'app2';
+
+$('body').html(text);
+velocity($('body'), 'fadeOut', {
+  duration: 1000
+});
+moduleA();
+
+/***/ })
+
+},[5]);
